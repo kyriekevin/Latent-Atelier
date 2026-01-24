@@ -1,15 +1,13 @@
+<!-- markdownlint-disable MD013 -->
+
 # Latent Atelier
 
 ## 🎭 The Metaphor
 
 Welcome to my digital workshop. Why **"Latent Atelier"**?
 
-* **Latent (The Material):** Just as a potter works with clay, we work with
-  the *Latent Space* — the hidden, high-dimensional representation where
-  intelligence actually lives.
-* **Atelier (The Studio):** This isn't a factory line. It's a studio where
-  we carefully curate papers, debug thoughts, and craft systems with
-  intention.
+* **Latent (The Material):** Just as a potter works with clay, we work with the *Latent Space* — the hidden, high-dimensional representation where intelligence actually lives.
+* **Atelier (The Studio):** This isn't a factory line. It's a studio where we carefully curate papers, debug thoughts, and craft systems with intention.
 
 > **"We build systems with Soul, but verify them with Latency."** 😉
 
@@ -26,8 +24,6 @@ grounded in **First Principles** and **Engineering Reality**.
 
 ---
 
-<!-- markdownlint-disable MD013 -->
-
 ## 🏛️ The Gallery (Knowledge Stack)
 
 We organize our craft into 5 distinct layers. **[Enter the Full Archive](./INDEX.md)**
@@ -42,22 +38,33 @@ We organize our craft into 5 distinct layers. **[Enter the Full Archive](./INDEX
 
 ---
 
-## ✨ Curated Collections (Monthly)
+## 🔭 The Observatory (Trends & Intelligence)
 
-> *Distilled insights from the noise.*
+> *Monthly radar scans of the industry landscape.*
 
-| Period | Theme | The "So What?" |
+| Period | Theme | Key Signal |
 | :--- | :--- | :--- |
+
+---
+
+## 💎 The Artifacts (Deep Insights)
+
+> *Crystalized thoughts. One Issue, One Judgment.*
+
+| Date | Topic | The Insight (Memo) |
+| :--- | :--- | :--- |
+
+---
 
 ## ⚡ Fresh Sketches (Recent Notes)
 
 | Date | Theme | Title & Insight |
 | :--- | :--- | :--- |
 
-<!-- markdownlint-enable MD013 -->
-
 > [📂 **Browse the Shelf**](./readings/)
 
 ---
 
 *Created with ❤️ and GPU hours.*
+
+<!-- markdownlint-enable MD013 -->

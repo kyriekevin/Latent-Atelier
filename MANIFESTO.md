@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD013 -->
+
 # 📜 The Craftsman's Code
 
 > "Style is knowing who you are, what you want to say,
@@ -45,3 +47,5 @@ There are tons of papers on Arxiv today. Why read *these*?
   are the new levers.
 
 > *(This manifesto is a living document of my changing mind.)*
+
+<!-- markdownlint-enable MD013 -->
