@@ -1,14 +1,14 @@
 # Latent Atelier
 
-<p align="center">
+<p style="text-align: center;">
     <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242029433.png" alt="Latent Atelier Banner" />
 </p>
 
-<p align="center">
+<p style="text-align: center;">
     <em>Cultivating intelligence in the Latent Atelier, seeking the roots of AGI. ✨</em>
 </p>
 
-<p align="center">
+<p style="text-align: center;">
     <img src="https://img.shields.io/github/last-commit/kyriekevin/Latent-Atelier?color=1E90FF&style=for-the-badge" alt="last commit" />
     <img src="https://img.shields.io/github/commit-activity/m/kyriekevin/Latent-Atelier?color=FFD700&style=for-the-badge" alt="commit activity" />
 </p>
