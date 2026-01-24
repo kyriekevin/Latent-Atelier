@@ -1,5 +1,18 @@
 # Latent Atelier
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242029433.png" alt="Latent Atelier Banner" />
+</p>
+
+<p align="center">
+    <em>Cultivating intelligence in the Latent Atelier, seeking the roots of AGI. ✨</em>
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/github/last-commit/kyriekevin/Latent-Atelier?color=1E90FF&style=for-the-badge" alt="last commit" />
+    <img src="https://img.shields.io/github/commit-activity/m/kyriekevin/Latent-Atelier?color=FFD700&style=for-the-badge" alt="commit activity" />
+</p>
+
 ## 🎭 The Metaphor
 
 Welcome to my digital workshop. Why **"Latent Atelier"**?
@@ -28,11 +41,11 @@ We organize our craft into 5 distinct layers. **[Enter the Full Archive](./INDEX
 
 | Layer | The Craft | Focus |
 | :--- | :--- | :--- |
-| **🏗️ INFRA** | **The Kiln** | The machinery that makes art possible. (Training, Serving, Evals) |
-| **🧠 MODEL** | **The Clay** | The raw material of intelligence. (Pre-train, MLLM, World Sims) |
-| **⚖️ ALIGN** | **The Chisel** | Shaping raw intellect into human intent. (RLHF, Reasoning, Safety) |
-| **🤖 AGENT** | **The Hands** | Giving the sculpture the ability to act. (Planning, Tools, OS) |
-| **🚀 APPLY** | **The Exhibit** | Where art meets the real world. (RecSys, Flywheels, Product) |
+| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242136228.png" width=14 alt="infra logo" />Infra | The Kiln | The machinery that makes art possible. (Training, Serving, Evals) |
+| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242137050.png" width=14 alt="model logo" />Model | The Clay | The raw material of intelligence. (Pre-train, MLLM, World Sims) |
+| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242138600.png" width=14 alt="align logo" />Align | The Chisel | Shaping raw intellect into human intent. (RLHF, Reasoning, Safety) |
+| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242139559.png" width=14 alt="agent logo" />Agent | The Hands | Giving the sculpture the ability to act. (Planning, Tools, OS) |
+| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242139253.png" width=14 alt="apply logo" />Apply | The Exhibit | Where art meets the real world. (RecSys, Flywheels, Product) |
 
 ---
 
