@@ -41,11 +41,11 @@ We organize our craft into 5 distinct layers. **[Enter the Full Archive](./INDEX
 
 | Layer | The Craft | Focus |
 | :--- | :--- | :--- |
-| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242136228.png" width=14 alt="infra logo" />Infra | The Kiln | The machinery that makes art possible. (Training, Serving, Evals) |
-| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242137050.png" width=14 alt="model logo" />Model | The Clay | The raw material of intelligence. (Pre-train, MLLM, World Sims) |
-| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242138600.png" width=14 alt="align logo" />Align | The Chisel | Shaping raw intellect into human intent. (RLHF, Reasoning, Safety) |
-| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242139559.png" width=14 alt="agent logo" />Agent | The Hands | Giving the sculpture the ability to act. (Planning, Tools, OS) |
-| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242139253.png" width=14 alt="apply logo" />Apply | The Exhibit | Where art meets the real world. (RecSys, Flywheels, Product) |
+| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242136228.png" width="14" alt="infra logo" />Infra | The Kiln | The machinery that makes art possible. (Training, Serving, Evals) |
+| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242137050.png" width="14" alt="model logo" />Model | The Clay | The raw material of intelligence. (Pre-train, MLLM, World Sims) |
+| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242138600.png" width="14" alt="align logo" />Align | The Chisel | Shaping raw intellect into human intent. (RLHF, Reasoning, Safety) |
+| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242139559.png" width="14" alt="agent logo" />Agent | The Hands | Giving the sculpture the ability to act. (Planning, Tools, OS) |
+| <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242139253.png" width="14" alt="apply logo" />Apply | The Exhibit | Where art meets the real world. (RecSys, Flywheels, Product) |
 
 ---
 
