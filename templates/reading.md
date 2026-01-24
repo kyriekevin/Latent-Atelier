@@ -7,8 +7,6 @@ tags: [Topic1, Topic2]
 url: "https://arxiv.org/..."
 ---
 
-<!-- markdownlint-disable MD013 -->
-
 ## 📄 [Abbr] Full Title
 
 ### 1. TL;DR (Executive Summary)
@@ -75,5 +73,3 @@ url: "https://arxiv.org/..."
     [跳出论文本身，对技术趋势、AI 本质的思考。例如：这是否意味着 RL 在特定场景下可以被纯 Prompt Engineering 替代？]
 * **Business Connection:**
     [具体的业务落地脑洞。例如：在我们的 RecSys 中，可以用这个 Loss 替换掉现有的 Point-wise Loss。]
-
-<!-- markdownlint-enable MD013 -->

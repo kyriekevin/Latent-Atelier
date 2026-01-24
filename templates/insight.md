@@ -6,8 +6,6 @@ tags: [Topic, Sub-problem]
 status: Draft / Crystalized
 ---
 
-<!-- markdownlint-disable MD013 -->
-
 ## 💡 Insight: [Title]
 
 ### 1. The Core Conflict (The Trigger)
@@ -61,5 +59,3 @@ status: Draft / Crystalized
 
 * **Supporting Papers:** [Paper A], [Paper B]
 * **Internal Experiments:** [我们的实验数据是否支持这个判断？]
-
-<!-- markdownlint-enable MD013 -->

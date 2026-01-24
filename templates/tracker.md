@@ -4,8 +4,6 @@ type: Monthly Report
 tags: [Trends, Learning Log]
 ---
 
-<!-- markdownlint-disable MD013 -->
-
 # 🗓️ Intelligence Log: [Month Year]
 
 ## 1. The Big Picture (Trends)
@@ -29,5 +27,3 @@ tags: [Trends, Learning Log]
 
 * **Current Focus:** [例如：Trying to understand the difference between DPO and DAPO.]
 * **Status:** [Read 3 papers, still confused about the gradient variance. Need to read [Paper X] next.]
-
-<!-- markdownlint-enable MD013 -->

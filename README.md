@@ -1,5 +1,3 @@
-<!-- markdownlint-disable MD013 -->
-
 # Latent Atelier
 
 ## 🎭 The Metaphor
@@ -66,5 +64,3 @@ We organize our craft into 5 distinct layers. **[Enter the Full Archive](./INDEX
 ---
 
 *Created with ❤️ and GPU hours.*
-
-<!-- markdownlint-enable MD013 -->
