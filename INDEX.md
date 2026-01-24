@@ -1,5 +1,3 @@
-<!-- markdownlint-disable MD013 -->
-
 # 🗺️ The Archive
 
 > A categorical index of our exploration into the Latent Space.
@@ -23,5 +21,3 @@
 ## 🚀 APPLY: The Exhibit
 
 *Where the rubber meets the road.*
-
-<!-- markdownlint-enable MD013 -->
