@@ -68,7 +68,7 @@ LLMs 能够在特定领域表现出专家级性能，往往需要一系列训练
     * 本质：这是一个典型的 Credit Assignment Problem。模型不知道这 500 个 token 中，究竟是哪一个 token 导致了低分。是逻辑错了？还是语法错了？为了从这种稀疏信号中学习，RL 算法需要海量的采样（Sample Complexity 极高）来通过蒙特卡洛方法估计梯度，导致训练成本通常是 SFT 的数倍，且对超参数极其敏感，训练极不稳定。
     * *Notes*: 这种反馈的稀疏性导致 RL 在许多应用中效率低下。
   * SeqKD:
-    * 传统的序列级知识蒸馏（Sequence-Level Knowledge Distillation, SeqKD）虽然利用了 Teacher 的 Logits，但大多仍然是在固定的离线数据集上进行的（Off-Policy）。这意味着它依然无法解决 Student 和 Teacher 之间的能力差距导致的分布不匹配问题（Train-Test Mismatch）。当 Student 的能力远弱于 Teacher 时，仅仅在 Teacher 擅长的区域进行拟合，并不能帮助 Student 在自己生成的“充满未知”的轨迹中找到方向 。
+    * 传统的序列级知识蒸馏（Sequence-Level Knowledge Distillation, SeqKD）虽然利用了 Teacher 的 Logits，但大多仍然是在固定的离线数据集上进行的（Off-Policy）。这意味着它依然无法解决 Student 和 Teacher 之间的能力差距导致的分布不匹配问题（Train-Test Mismatch）。当 Student 的能力远弱于 Teacher 时，仅仅在 Teacher 擅长的区域进行拟合，并不能帮助 Student 在自己生成的“充满未知”的轨迹中找到方向。
 
   * The Opportunity: 能否结合 On-Policy 的探索能力（解决分布偏移和暴露偏差）与 Teacher Logits 的稠密信号（解决稀疏奖励和样本效率问题）？这正是 On-Policy Distillation 诞生的技术原点。
 
