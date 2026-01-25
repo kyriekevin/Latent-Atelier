@@ -85,7 +85,7 @@ LLMs 能够在特定领域表现出专家级性能，往往需要一系列训练
   * The "Reverse KL" Intuition: Mode-Seeking vs. Mean-Seeking
     这是一个非常关键的数学直觉，决定了模型的行为特征。
     * **SFT (Forward KL $D_{KL}(P || Q)$)**: 倾向于 Zero-Avoiding。为了最小化 Forward KL，只要 Teacher 分布 $P$ 的概率不为零，Student 分布 $Q$ 的概率也必须不为零。如果 Teacher 的分布具有多样性（例如，对一个问题有 A、B、C 三种正确的解法），SFT 训练出来的 Student 往往会尝试“平均”这三种解法，结果生成出一种语法通顺但逻辑混乱的混合物（Mean-Seeking）。
-    * **On-Policy Distillation (Reverse KL $D_{KL}(Q || P)$)**: 倾向于 Mode-Seeking。为了最小化 Reverse KL，只要 Teacher 分布 $P$ 的地方，Student 分布 $Q$ 就必须强制为。这迫使 Student 放弃“平均主义”，而是必须锁定（Lock-in）Teacher 认为概率最高的那一个解法模式。对于推理任务（Math, Code）而言，这种“锐化”（Sharpening）特性至关重要——宁愿模型掌握一种解法并做到极致，也不愿它在三种解法中犹豫不决。
+    * **On-Policy Distillation (Reverse KL $D_{KL}(Q || P)$)**: 倾向于 Mode-Seeking。为了最小化 Reverse KL，Student 分布 $Q$ 只能在 Teacher 分布 $P$ 概率不为零的区域有值。这迫使 Student 放弃“平均主义”，而是必须锁定（Lock-in）Teacher 认为概率最高的那一个解法模式。对于推理任务（Math, Code）而言，这种“锐化”（Sharpening）特性至关重要——宁愿模型掌握一种解法并做到极致，也不愿它在三种解法中犹豫不决。
 
 * **Our Resonance:**
   * "The SFT Ceiling": 在微调私有数据时，SFT 很容易过拟合。一旦数据量不够，模型就会变成“鹦鹉学舌”，遇到稍微变体的 Prompt 就无法泛化。
