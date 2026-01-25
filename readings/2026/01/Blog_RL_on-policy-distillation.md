@@ -303,7 +303,7 @@ Thinking Machines 团队特别强调其在 Personalization（个性化） 和 Co
 * **Deep Reflection:**
   * On-Policy Distillation 暗示了一个深刻的技术趋势：静态数据集（Static Dataset）的重要性正在下降，动态环境（Dynamic Environment/Teacher）的重要性正在上升。
     * Past: AI 开发是 "Curate Dataset -> Train"。所有的知识都压缩在数据集中。
-    * Future: AI 开发是 "Define Teacher/Verifier -> Student Interacts -> Feedback"。知识存在于 Teacher 的参数或 Verifier 的规则中，通过交互被 Student 吸收。这意味我们的基建重点应该从“数据清洗流水线”转移到“高效的合成数据生成与评判流水线”。Compute is the new Data. 算力不仅用于训练，更用于生成“训练过程中的数据”。
+    * Future: AI 开发是 "Define Teacher/Verifier -> Student Interacts -> Feedback"。知识存在于 Teacher 的参数或 Verifier 的规则中，通过交互被 Student 吸收。这意味着我们的基建重点应该从“数据清洗流水线”转移到“高效的合成数据生成与评判流水线”。Compute is the new Data. 算力不仅用于训练，更用于生成“训练过程中的数据”。
   * Thinking Machines 的工作其实是 Self-Play (自我博弈) 的一种广义变体。
     * 如果我们将 Teacher 设定为 Student 本身（或者 Student 的一个旧版本），这不就是 OpenAI 的 Iterated Distillation 吗？
     * Idea: 我们可以实施 Iterative On-Policy Distillation。
