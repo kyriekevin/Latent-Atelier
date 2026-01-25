@@ -204,7 +204,7 @@ training_client.forward_backward(trajectories, loss_fn="importance_sampling")
       * 它解决了静态 Reward Model 容易被过度优化（Reward Hacking）的问题
       * 虽然信号不如 White-box 稠密（Token-level 较弱），但它是目前白嫖闭源模型（黑盒）最高效的对齐手段
 
-* GOLD (Cross-Tokenizer Adaptation)
+  * GOLD (Cross-Tokenizer Adaptation)
     当 Teacher (如 Qwen) 和 Student (如 Llama) 属于不同家族时，其词表（Vocabulary）完全不兼容。直接计算 $D_{KL}$ 在数学上是未定义的，因为相同 ID 对应的 Token 不同（如 ID 128 在 A 中是 "cat"，在 B 中可能是 "dog"）。
 
   * 维度与语义的不对称
