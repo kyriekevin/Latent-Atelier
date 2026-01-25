@@ -145,7 +145,7 @@ training_client.forward_backward(trajectories, loss_fn="importance_sampling")
     * 数学目标 (Mathematical Objective)
         $$ \mathcal{L}_{RKL}(\theta) = \mathbb{E}_{x \sim \mathcal{D}} [ D_{KL}(\pi_\theta(\cdot|x) \parallel \pi_{teacher}(\cdot|x)) ] $$
         展开到 Token 级别：
-        $$ \mathcal{L}_{RKL}(\theta) = \mathbb{E}_{x \sim \mathcal{D}} \mathbb{E}_{y \sim \pi_\theta} \left[ \log \pi_\theta(y_t | x, y_{<t}) - \log \pi_{teacher}(y_t | x, y_{<t}) \right] $$
+        $$ \mathcal{L}_{RKL}(\theta) = \mathbb{E}_{x \sim \mathcal{D}} \mathbb{E}_{y \sim \pi_\theta} \left[ \sum_t \left( \log \pi_\theta(y_t | x, y_{<t}) - \log \pi_{teacher}(y_t | x, y_{<t}) \right) \right] $$
 
     * 强化学习视角 (RL Mapping)
         通过 Policy Gradient (REINFORCE) 的标准推导，最小化上述 Loss 的梯度等价于：
