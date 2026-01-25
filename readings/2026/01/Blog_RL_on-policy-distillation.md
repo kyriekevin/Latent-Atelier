@@ -36,7 +36,7 @@ LLMs 能够在特定领域表现出专家级性能，往往需要一系列训练
 
 ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs20260125141241898.png)
 
-当前 LLM Post-Training 技术栈中存在的结构性矛盾——一个被称为”不可能三角“的困境：在样本效率 （Sample Efficiency）、分布一致性 （Distributional Consistency）和信号密度（Signal Density）之间，无法同时取得优异表现。
+当前 LLM Post-Training 技术栈中存在的结构性矛盾——一个被称为“不可能三角”的困境：在样本效率 （Sample Efficiency）、分布一致性 （Distributional Consistency）和信号密度（Signal Density）之间，无法同时取得优异表现。
 
 * **Status Quo:** 目前业界的主流 Post-Training 分为两种范式：
   * **Off-Policy**：给定输入prompts，让学生模型去学习模仿来自其他来源（例如教师模型）的生成序列（rollout）。
