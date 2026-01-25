@@ -315,7 +315,7 @@ Thinking Machines 团队特别强调其在 Personalization（个性化） 和 Co
 * **Business Connection:**
   * 在对话或 Agent 场景中，传统的 SFT 需要离线收集数据、清洗、再训练，周期长（天级/周级），滞后且昂贵。
   * On-Policy Distillation 允许我们部署一个 "Shadow Mode (影子模式)" 的训练架构：
-        1. Online Serving: 线上小模型（Student）处理实时用户流量。
-        2. Shadow Evaluation: 离线大模型（Teacher）在后台对小模型的 Log（即 On-Policy 轨迹）进行打分和 Logits 回传。注意，这不需要实时完成，可以异步进行。
-        3. Nightly Update: 利用这些累积的 Feedback，在夜间通过 On-Policy Distillation 更新小模型。
+    1. Online Serving: 线上小模型（Student）处理实时用户流量。
+    2. Shadow Evaluation: 离线大模型（Teacher）在后台对小模型的 Log（即 On-Policy 轨迹）进行打分和 Logits 回传。注意，这不需要实时完成，可以异步进行。
+    3. Nightly Update: 利用这些累积的 Feedback，在夜间通过 On-Policy Distillation 更新小模型。
   * 这能实现 日更甚至小时级 的模型迭代，且由于有 Teacher 压阵，不会像纯 Online RL 那样容易因为 Reward Hacking 而跑飞，保证了业务的安全性。
