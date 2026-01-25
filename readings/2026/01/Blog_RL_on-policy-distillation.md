@@ -240,7 +240,7 @@ training_client.forward_backward(trajectories, loss_fn="importance_sampling")
                 * **Actor (Inference Engine):** 使用 vLLM 或 TGI 等高性能引擎进行异步 Rollout，生成数据推入 Replay Buffer。
                 * **Learner (Training Engine):** 进程从分布式训练 Buffer 中读取数据，进行梯度更新。
         * **KV Cache Management:**
-            **必须复用生成阶段的 KV Cache**。如果计算 Loss 时重新对序列进行 Forward，计算量将翻转。在 DeepSpeed 或 TRL 等框架中，通过精细管理 Cache 传递提升效率。
+            **必须复用生成阶段的 KV Cache**。如果计算 Loss 时重新对序列进行 Forward，计算量将翻倍。在 DeepSpeed 或 TRL 等框架中，通过精细管理 Cache 传递提升效率。
 
     3. Data Mixture (GKD's $\lambda$ Parameter)
         纯 On-Policy 训练面临 **Cold Start Problem**：训练初期 Student 生成的文本可能是逻辑混乱的乱码，Teacher 此时的反馈（Advantage）质量极差。
