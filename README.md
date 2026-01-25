@@ -71,6 +71,7 @@ We organize our craft into 5 distinct layers. **[Enter the Full Archive](./INDEX
 
 | Date | Theme | Title & Insight |
 | :--- | :--- | :--- |
+| 2026-01-25 | Post Train | [On-policy Distillation](./readings/2026/01/Blog_RL_on-policy-distillation.md) |
 
 > [📂 **Browse the Shelf**](./readings/)
 

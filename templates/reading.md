@@ -2,7 +2,7 @@
 title: "[Abbr] Full Title"
 authors: [Author Names]
 date: YYYY-MM-DD
-layer: #INFRA #MODEL #ALIGN #AGENT #APPLY
+layer: INFRA/MODEL/ALIGN/AGENT/APPLY
 tags: [Topic1, Topic2]
 url: "https://arxiv.org/..."
 ---
