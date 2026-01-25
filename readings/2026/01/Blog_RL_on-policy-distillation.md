@@ -47,7 +47,7 @@ LLMs 能够在特定领域表现出专家级性能，往往需要一系列训练
   * 常用方式一：
      ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs20260125143137752.png)
     * 可以使用 RL 进行 On-Policy Training
-    * 机制：On-Policy。模型必须根据当前策略 $\pi_\theta$ 采样生成完整回复 y，然后由环境 （Reward Model）给于反馈。
+    * 机制：On-Policy。模型必须根据当前策略 $\pi_\theta$ 采样生成完整回复 y，然后由环境 （Reward Model）给予反馈。
     * 数学本质：最大化 Expected Reward $\mathcal{J}(\theta) = \mathbb{E}_{x \sim \mathcal{D}, y \sim \pi_\theta(y|x)} [R(x, y)]$。
     * 优势：解决了分布偏移问题，因为训练和推理时模型面对的状态分布是一致的。
 
