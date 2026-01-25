@@ -65,7 +65,7 @@ LLMs 能够在特定领域表现出专家级性能，往往需要一系列训练
     * *Notes*: 在这种学习方式下观察到的另一个问题是：学生模型可能只是学会模仿教师的风格而不一定能学会真正的能力提升（《The False Promise of Imitating Proprietary LLMs》）。
   * RL: Sparse Reward 和 Credit Assignment
     * 现象：虽然 RL 是 On-Policy 的（学生自己写作业），但反馈信号极其稀疏。通常模型生成了 500 个 token 的长文，Reward Model 只会在最后给出一个标量分数（Scalar Reward，例如 +1 或 -1）。
-    * 本质：这是一个典型的 Credit Assignment Problem。模型不知道这 500 个 token 中，究竟是哪一个 token 导致了低分。是逻辑错了？还是语法错了？为了从这种稀疏信号中学习，RL 算法需要海量的采样（Sample Complexity 极高）来通过蒙特卡洛方法估计梯度，导致训练成本通常是 SFT 的数倍，且对超参数极其敏感，训练极不稳定 。
+    * 本质：这是一个典型的 Credit Assignment Problem。模型不知道这 500 个 token 中，究竟是哪一个 token 导致了低分。是逻辑错了？还是语法错了？为了从这种稀疏信号中学习，RL 算法需要海量的采样（Sample Complexity 极高）来通过蒙特卡洛方法估计梯度，导致训练成本通常是 SFT 的数倍，且对超参数极其敏感，训练极不稳定。
     * *Notes*: 这种反馈的稀疏性导致 RL 在许多应用中效率低下。
   * SeqKD:
     * 传统的序列级知识蒸馏（Sequence-Level Knowledge Distillation, SeqKD）虽然利用了 Teacher 的 Logits，但大多仍然是在固定的离线数据集上进行的（Off-Policy）。这意味着它依然无法解决 Student 和 Teacher 之间的能力差距导致的分布不匹配问题（Train-Test Mismatch）。当 Student 的能力远弱于 Teacher 时，仅仅在 Teacher 擅长的区域进行拟合，并不能帮助 Student 在自己生成的“充满未知”的轨迹中找到方向 。
