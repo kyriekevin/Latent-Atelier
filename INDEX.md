@@ -1,27 +1,60 @@
-# 🗺️ The Archive
+# 🗺️ The Archive (Master Index)
 
-> A categorical index of our exploration into the Latent Space.
+> A categorical index of our journey through the Latent Space. This map unifies our **Foundations (Papers)**, **Instruments (Tools)**, and **Crystallizations (Insights)**.
 
-## 🏗️ INFRA: The Machinery
+---
 
-*The backbone. Without strong bones, the body cannot move.*
+## 🏗️ INFRA: The Kiln
+
+*The machinery of intelligence. Focusing on training efficiency, hardware orchestration, and evaluation rigs.*
+
+| Type | Topic/Tool | Name & Resource | Core Signal / Utility |
+| :--- | :--- | :--- | :--- |
+
+---
 
 ## 🧠 MODEL: The Clay
 
-*The raw representation of the world.*
+*The raw material. Pre-training architectures, Scaling Laws, MLLMs, and World Simulators.*
+
+| Type | Topic/Tool | Name & Resource | Core Signal / Utility |
+| :--- | :--- | :--- | :--- |
+
+---
 
 ## ⚖️ ALIGN: The Chisel
 
-*Carving raw intelligence into helpful agents.*
+*Shaping intent. From RLHF and Post-training to Reasoning and Chain-of-Thought.*
 
-| Date | Topic | The Insight (Memo) |
-| :--- | :--- | :--- |
-| 2026-01-25 | Post Train | [On-policy Distillation](./readings/2026/01/Blog_RL_on-policy-distillation.md) |
+| Type | Topic/Tool | Name & Resource | Core Signal / Utility |
+| :--- | :--- | :--- | :--- |
+| 📜 | [On-policy Distillation](./readings/2026/01/Blog_RL_on-policy-distillation.md) | [On-policy Distillation](./readings/2026/01/Blog_RL_on-policy-distillation.md) | On-policy distillation transforms static imitation into dynamic introspection by using dense, token-level teacher feedback to correct a student's self-generated reasoning trajectories. |
+
+---
 
 ## 🤖 AGENT: The Hands
 
-*Intelligence acting upon the environment.*
+*Action and Autonomy. Planning, Tool-use, Multi-agent systems, and OS-level integration.*
+
+| Type | Topic/Tool | Name & Resource | Core Signal / Utility |
+| :--- | :--- | :--- | :--- |
+
+---
 
 ## 🚀 APPLY: The Exhibit
 
-*Where the rubber meets the road.*
+*The realization of value. Product design, UX for AI, and Cognitive Augmentation.*
+
+| Type | Topic/Tool | Name & Resource | Core Signal / Utility |
+| :--- | :--- | :--- | :--- |
+
+---
+
+### 🗝️ Legend
+
+* 📜 **Paper/Reading**: Theoretical foundations and research breakthroughs.
+* 🛠️ **Tool/Framework**: Practical implements from the Workshop.
+* 💎 **Artifact/Insight**: Deep dives and subjective judgments.
+* 🔭 **Trend/Signal**: Industry-wide patterns captured in the Observatory.
+
+> [📂 **Return to Workshop**](./README.md)
