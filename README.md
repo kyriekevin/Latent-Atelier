@@ -45,7 +45,7 @@ In an era of noise, Taste is our only defense. A craftsman is defined not only b
 | <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242139559.png" width="14" alt="agent logo" />Agent | The Hands | Giving the sculpture the ability to act. (Planning, Tools, OS) |
 | <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242139253.png" width="14" alt="apply logo" />Apply | The Exhibit | Where art meets the real world. (RecSys, Flywheels, Product) |
 
-> [📂 **Search by Domain (INDEX.md)**](./INDEX.md)
+> [📂 **Browse the Archive (INDEX.md)**](./INDEX.md)
 
 ---
 
