@@ -87,7 +87,7 @@ In an era of noise, Taste is our only defense. A craftsman is defined not only b
 
 | Date | Type | Topic | Title & Insight |
 | :--- | :--- | :--- |
-| 2026-01-25 | Blog | Post Train | [On-policy Distillation](./readings/2026/01/Blog_RL_on-policy-distillation.md) transforms static imitation into dynamic introspection by using dense, token-level teacher feedback to correct a student's self-generated reasoning trajectories. |
+| 2026-01-25 | Blog | Post Train | [On-policy Distillation](./readings/2026/01/Blog_RL_on-policy-distillation.md) |
 
 ---
 
