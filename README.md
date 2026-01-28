@@ -15,10 +15,11 @@
 
 ## 🎭 The Metaphor
 
-Welcome to my digital workshop. Why **"Latent Atelier"**?
+Welcome to the **Latent Atelier**. In the pursuit of AGI, we are not just observers; we are craftsmen. A craftsman's journey is a recursive loop of three elements:
 
-* **Latent (The Material):** Just as a potter works with clay, we work with the *Latent Space* — the hidden, high-dimensional representation where intelligence actually lives.
-* **Atelier (The Studio):** This isn't a factory line. It's a studio where we carefully curate papers, debug thoughts, and craft systems with intention.
+1. **The Material (Theory):** Understanding the "clay" of high-dimensional Latent Space through research papers.
+2. **The Implements (Tools):** Mastering the "chisels" and "kilns"—the frameworks and apps that turn math into reality.
+3. **The Artifacts (Wisdom):** Crystalizing the friction between theory and practice into deep insights.
 
 > **"We build systems with Soul, but verify them with Latency."** 😉
 
@@ -26,18 +27,15 @@ Welcome to my digital workshop. Why **"Latent Atelier"**?
 
 ## 📜 The Code (Manifesto)
 
-In an era of noise, Taste is our only defense.
-I don't read everything; I read what matters. My selection criteria are
-grounded in **First Principles** and **Engineering Reality**.
+In an era of noise, Taste is our only defense. A craftsman is defined not only by the scrolls he reads but by the precision of his tools and the clarity of his judgment.
 
-> 👉 **[Read the Craftsman's Code (Manifesto)](./MANIFESTO.md)** to understand
-> why I choose *Mechanism* over *Metrics*.
+> 👉 **[Read the Craftsman's Code (Manifesto)](./MANIFESTO.md)** to understand why I choose *Mechanism* over *Metrics* and **Elegance** over **Hype**.
 
 ---
 
-## 🏛️ The Gallery (Knowledge Stack)
+## 🏛️ The Library (Theoretical Foundations)
 
-We organize our craft into 5 distinct layers. **[Enter the Full Archive](./INDEX.md)**
+*Studying the Nature of the Clay.* We categorize the evolution of AGI into five layers of craftsmanship.
 
 | Layer | The Craft | Focus |
 | :--- | :--- | :--- |
@@ -47,33 +45,49 @@ We organize our craft into 5 distinct layers. **[Enter the Full Archive](./INDEX
 | <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242139559.png" width="14" alt="agent logo" />Agent | The Hands | Giving the sculpture the ability to act. (Planning, Tools, OS) |
 | <img src="https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/202601242139253.png" width="14" alt="apply logo" />Apply | The Exhibit | Where art meets the real world. (RecSys, Flywheels, Product) |
 
+> [📂 **Search by Domain (INDEX.md)**](./INDEX.md)
+
 ---
 
-## 🔭 The Observatory (Trends & Intelligence)
+## 🛠️ The Workshop (Practical Implements)
 
-> *Monthly radar scans of the industry landscape.*
+*Sharpening the Tools.* A curated log of frameworks and applications that empower our engineering and cognitive workflows.
+
+| Category | The Purpose | Key Implements |
+| :--- | :--- | :--- |
+| **Foundry** | Model Development | `ms-swift`, `opencompass`, `vllm` |
+| **Scaffolding** | Development & Logic | `LangGraph`, `LangChain` |
+| **Augmentation** | Cognitive Productivity | `NotebookLM`, `Cursor`, `Raycast` |
+
+> [🧰 **Browse the Tool Log (TOOLS.md)**](./TOOLS.md)
+
+---
+
+## 💎 The Gallery (Intelligence & Artifacts)
+
+*The Finished Works. Where theory meets practice to form judgment.*
+
+### 🔭 The Observatory
+
+*Monthly radar scans of the industry landscape and emerging signals.*
 
 | Period | Theme | Key Signal |
 | :--- | :--- | :--- |
 
----
+### ⚡ Deep Artifacts
 
-## 💎 The Artifacts (Deep Insights)
-
-> *Crystalized thoughts. One Issue, One Judgment.*
+*Crystalized thoughts. One Issue, One Judgment.*
 
 | Date | Topic | The Insight (Memo) |
 | :--- | :--- | :--- |
 
----
+## 🎨 Fresh Sketches (Recent Notes)
 
-## ⚡ Fresh Sketches (Recent Notes)
+*The latest updates from both the Library and the Workshop.*
 
-| Date | Theme | Title & Insight |
+| Date | Type | Topic | Title & Insight |
 | :--- | :--- | :--- |
-| 2026-01-25 | Post Train | [On-policy Distillation](./readings/2026/01/Blog_RL_on-policy-distillation.md) |
-
-> [📂 **Browse the Shelf**](./readings/)
+| 2026-01-25 | Blog | Post Train | [On-policy Distillation](./readings/2026/01/Blog_RL_on-policy-distillation.md) |
 
 ---
 
