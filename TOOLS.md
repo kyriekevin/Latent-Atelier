@@ -45,4 +45,4 @@ This log tracks the implements I use to shape the Latent Space. Unlike the [Arch
 * **AI Assistant:** Gemini(Web) + Raycast(App)
 * **Knowledge Base:** NotebookLM + Obsidian
 
-> [⬅️ Back to Library (INDEX.md)](./INDEX.md)
+> [⬅️ Back to Archive (INDEX.md)](./INDEX.md)
