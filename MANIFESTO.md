@@ -1,47 +1,37 @@
 # 📜 The Craftsman's Code
 
-> "Style is knowing who you are, what you want to say,
-> and not giving a damn." — *Gore Vidal* (Adapted for AI)
+> "A craftsman is known by his tools, but a master is known by the way he chooses them." — *The Atelier Proverb*
 
-## 1. The Philosophy of the Atelier
+## 1. The Trinity of Creation
 
-In the *Latent Atelier*, we believe that Algorithm Engineering is closer to
-architecture than it is to magic.
+In the *Latent Atelier*, we believe that AGI is built through the recursive interplay of three forces. To ignore one is to fail the craft.
 
-* **The Bitter Lesson is Sweet:**
-  We don't fight scale; we ride it. We prefer general methods (Search,
-  Learning) that get better with more compute, rather than clever hacks
-  that don't scale.
-
-* **Compression is Understanding:**
-  We look for papers that find elegant ways to compress the world's complexity
-  into a model's weights. If a paper adds complexity without adding insight,
-  it belongs in the trash.
-
-* **Velocity is a Feature:**
-  A beautiful algorithm that takes 3 months to converge is a bad algorithm.
-  We value *velocity* — the ability to iterate ideas quickly.
+* **The Material (Theoretical Foundations):** We treat the *Latent Space* as our clay. Understanding its geometry, scaling laws, and internal representations is the first step toward mastery.
+* **The Implements (Engineering Tools):** Theory without tools is paralyzed. We curate frameworks and instruments that extend our cognitive and engineering reach. If a tool doesn't sharpen our intent, it is noise.
+* **The Artifacts (Applied Wisdom):** We do not seek knowledge for its own sake. We seek the *Artifact*—the moment where a paper and a tool collide to produce a unique judgment or a working system.
 
 ## 2. Our Taste (The Filter)
 
-There are tons of papers on Arxiv today. Why read *these*?
+In an era of exponential noise, **Taste is our only defense.** We apply the same rigor to a GitHub framework / an awesome APP as we do to an ArXiv paper.
 
 * **Mechanism > Metrics:**
-  Does the paper explain *why* the loss went down? Or does it just show a
-  bold number on a table? We care about the *mechanism of action*.
+  We don't care if a model tops a leaderboard or if a tool is trending on X or Reddit. We ask: *How does it actually work?* We prioritize understanding the underlying mechanism over chasing the latest benchmark.
+* **Simplicity > Sophistication:**
+  The best designs are "Subtractive." We value papers that find elegant simplifications and tools that provide powerful abstractions without adding unnecessary layers of "magic."
+* **First Principles > Hype:**
+  "Works because everyone uses it" is not a reason. We evaluate every implement based on its alignment with scaling laws, engineering reality, and the bitter lesson.
 
-* **System > Component:**
-  A model doesn't exist in a vacuum. We obsess over the *System* — how the
-  Data Flywheel feeds the Model, and how Infra supports the Training.
+## 3. The Engineering Reality
 
-* **Reality Check:**
-  "Works on MNIST" is not enough. We look for ideas that survive the harsh
-  reality of noise, latency constraints, and long-tail distributions.
+Algorithms do not exist in a vacuum; they live in the **Kiln of Infrastructure**.
 
-## 3. The Evolution
+* **Velocity as a Feature:** A tool that speeds up the "Idea-to-Inference" loop is worth more than a dozen complex papers. We value *iteration speed* as a core metric of intelligence.
+* **Systemic Thinking:** We obsess over the *Flywheel*. How does a fine-tuning tool (Foundry) improve the agentic logic (Scaffolding), and how does that eventually feed back into our cognitive synthesis (Augmentation)?
+* **Surviving the Noise:** We look for ideas and tools that survive the harsh reality of data noise, latency constraints, and the "long tail" of real-world edge cases.
 
-* *Yesterday:* We thought bigger models were the only answer.
-* *Today:* We realize that **Data Quality** and **Inference-Time Reasoning**
-  are the new levers.
+## 4. The Evolution
 
-> *(This manifesto is a living document of my changing mind.)*
+* The Past: We focused on the **Model** as a static sculpture.
+* The Present: We see the **System**—a dynamic orchestration of reasoning, tools, and data.
+
+> *(This manifesto is a living document. It changes as my tools sharpen and my understanding of the material deepens.)*
