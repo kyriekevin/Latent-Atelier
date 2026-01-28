@@ -57,4 +57,4 @@
 * 💎 **Artifact/Insight**: Deep dives and subjective judgments.
 * 🔭 **Trend/Signal**: Industry-wide patterns captured in the Observatory.
 
-> [📂 **Return to Workshop**](./README.md)
+> [📂 **Return to Atelier**](./README.md)
