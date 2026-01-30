@@ -121,7 +121,7 @@ url: "https://github.com/anthropics/skills"
   * Enterprise SPM (Skill Package Manager): 业务逻辑的供应链管理
     * 定义：参考`npm`或`pip`，团队内部建立`SPM`，用于管理“认知模块”的依赖与分发
   * KaaS (Knowledge as a Service): 不仅卖工具，更卖“方法论”
-    * 定义：SaaS 卖的是“锤子”（工具/MCP），KaaS 买的是“老木匠的手艺”（Skill）
+    * 定义：SaaS 卖的是“锤子”（工具/MCP），KaaS 卖的是“老木匠的手艺”（Skill）
 
 ### Appendix
 
