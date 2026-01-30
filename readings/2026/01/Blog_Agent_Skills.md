@@ -11,7 +11,7 @@ url: "https://github.com/anthropics/skills"
 
 ### 1. TL;DR (Executive Summary)
 
-![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs20260129224115943.png)
+![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/20260130161329411.png)
 
 * **The Paper's Pitch:**
  Anthropic 提出了 Agent Skills，针对复杂 Agent 任务下的上下文问题（Context Bloat），通过渐进式披露（Progressive Disclosure）机制，将工具定义上下文消耗大幅降低。
@@ -54,20 +54,22 @@ url: "https://github.com/anthropics/skills"
 ### 4. Methodology (The "How")
 
 * **Core Architecture:**
-  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs20260129231051069.png)
+  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/20260130161755516.png)
   * Layer 1 (Discovery): `SKILL.md` 的 Frontmatter (YAML) 充当索引。模型启动时，只读取极简的 `name` 和 `description` (~100 tokens)。
   * Layer 2 (Activation): 当模型判断需要使用某个工具时，通过文件读取工具加载 `SKILL.md` 的 Markdown 正文。
   * Layer 3 (Execution): 执行脚本或调用底层的 MCP 工具。
 * **Key Algorithms:**
   * Progressive Disclosure:
     $$Cost_{total} = C_{base} + \sum_{i \in Active} C_{skill\_i}$$
-    对比传统模式的 $Cost_{total} = C_{base} + \sum_{all} C_{tool}$，该算法将复杂度从工具总数解耦，仅与当前活跃任务相关。 ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs20260129230916221.png)
+    对比传统模式的 $Cost_{total} = C_{base} + \sum_{all} C_{tool}$，该算法将复杂度从工具总数解耦，仅与当前活跃任务相关。
+  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/20260130161413239.png)
+
   * Orchestration via Filesystem: 利用模型对代码库和文件系统的天然理解力，将“工具调用”转化为“文件阅读与脚本执行”。
 * **Crucial Details:**
-  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs20260129231243275.png)
-  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs20260129231408347.png)
-  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs20260129231550212.png)
-  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs20260129231808502.png)
+  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/20260130161950147.png)
+  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/20260130163055831.png)
+  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/20260130162407625.png)
+  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/20260130162453953.png)
 
 ### 5. Experiments & Verification
 
@@ -110,7 +112,7 @@ url: "https://github.com/anthropics/skills"
 
 * **Deep Reflection:**
   这标志着 Agent 开发从 `Prompt Engineering` 正式迈向 `Context Engineering`。Skills 的本质是将 Procedural Memory 从模型参数或 Prompt 中剥离，固化为一种中间态的代码文档。意味着不再强求模型“记住”复杂的业务逻辑流程，而是教模型“查阅”流程手册。这与人类专家解决陌生问题的路径（查文档->执行）是完全同构的。
-  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs20260129231954581.png)
+  ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs/20260130163005140.png)
 
 * **Business Connection:**
   * SOP-as-Code 2.0: 从“文本约束”到“可执行资产”
