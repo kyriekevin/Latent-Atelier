@@ -109,7 +109,7 @@ url: "https://github.com/anthropics/skills"
 ### 7. Insights & Spark (The "Soul")
 
 * **Deep Reflection:**
-  这标志着 Agent 开发从 `Prompt Engineering` 正式迈向 `Context Engineering`。Skills 的本质是将 Procedural Memory 从模型参数或 Prompt 中剥离，固话为一种中间态的代码文档。意味着不再强求模型“记住”复杂的业务逻辑流程，而是教模型“查阅”流程手册。这与人类专家解决陌生问题的路径（查文档->执行）是完全同构的。
+  这标志着 Agent 开发从 `Prompt Engineering` 正式迈向 `Context Engineering`。Skills 的本质是将 Procedural Memory 从模型参数或 Prompt 中剥离，固化为一种中间态的代码文档。意味着不再强求模型“记住”复杂的业务逻辑流程，而是教模型“查阅”流程手册。这与人类专家解决陌生问题的路径（查文档->执行）是完全同构的。
   ![image.png](https://raw.githubusercontent.com/kyriekevin/img-hosting/main/imgs20260129231954581.png)
 
 * **Business Connection:**
