@@ -99,7 +99,7 @@ url: "https://github.com/anthropics/skills"
 
 * **Paper's Conclusion:** Agent Skills 是对 MCP 的补充而非替代。MCP 提供标准化的连接 (Connection)，Skills 提供结构化的流程 (Workflow)。二者结合是构建 Real-World Agent 的有效路径。
 * **Our Verification / Plan:**
-  * Limitation:
+  * Limitations:
     * Latency: 每次激活 Skill 都需要额外的 `read_file` 轮次，增加了交互延迟。
     * Governance: 基于文件的 Skills 分散在各处，难以像 API 网关一样集中治理和鉴权。
     * Skill Amnesia: 随着对话进行，加载的 Skill 内容可能被挤出上下文，需要 Context Pinning 机制。
