@@ -17,7 +17,7 @@ url: "https://github.com/anthropics/skills"
  Anthropic 提出了 Agent Skills，针对复杂 Agent 任务下的上下文问题（Context Bloat），通过渐进式披露（Progressive Disclosure）机制，将工具定义上下文消耗大幅降低。
  它是*程序性知识 (Procedural Knowledge)*的标准化载体，允许 Agent 在不消耗大量上下文的前提下，拥有“无限”的技能库。
 * **Our Takeaway:**
-  为业务 Agent 的 Token 成本与延迟提供了新的分层架构方案：核心在于将“能力 MCP”与“程序性知识 SKills”解耦，MCP 负责标准化的 I/O 连接，而 Skills 负责将 SOP 转化为按需加载的认知显存。
+  为业务 Agent 的 Token 成本与延迟提供了新的分层架构方案：核心在于将“能力 MCP”与“程序性知识 Skills”解耦，MCP 负责标准化的 I/O 连接，而 Skills 负责将 SOP 转化为按需加载的认知显存。
   * 何时用 MCP: 需要连接数据、原子操作、且逻辑简单时。
   * 何时用 Skills: 需要遵循 SOP、多步推理编排、或长尾低频任务时。一个高质量 Skills 必须包含*清晰的触发条件 (YAML)*、*结构化的思维链 (Instruction)* 以及*自我修正机制(Validation)*。
 
