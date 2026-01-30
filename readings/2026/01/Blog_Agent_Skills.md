@@ -92,7 +92,7 @@ url: "https://github.com/anthropics/skills"
 
 * **Ablation Study:**
   * Progressive Disclosure —— 真正的“英雄模块 (Hero)”： 这是 Agent Skills 的架构基石。它通过三级加载机制（Level 1：元数据发现；Level 2：指令加载；Level 3：资源/脚本执行）彻底释放了上下文窗口。它是实现“100+ 技能挂载”而无性能衰减的唯一原因。 这种机制确保模型仅在“意识到”需要某项能力时，才通过 Bash 读取相关的 SKILL.md。
-  * Deterministic Code Execution:在处理高风险任务（如数据库迁移、复杂数学计算）时，直接调用预设的工具脚本比让模型“即兴”生成代码的错误率降低了几个数量级。它提供了模型无法逾越的“逻辑围栏”。
+  * Deterministic Code Execution: 在处理高风险任务（如数据库迁移、复杂数学计算）时，直接调用预设的工具脚本比让模型“即兴”生成代码的错误率降低了几个数量级。它提供了模型无法逾越的“逻辑围栏”。
   * Feedback Loops: 包含“Run-Validate-Fix”流程的技能，其任务成功率远高于纯文本指令。这种“闭环验证”是减少幻觉、确保产出符合生产规范的最后一道防线。
 
 ### 6. Conclusion & Limitations
