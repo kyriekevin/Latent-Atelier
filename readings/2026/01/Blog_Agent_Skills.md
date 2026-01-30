@@ -26,7 +26,7 @@ url: "https://github.com/anthropics/skills"
 ### 2. Background & Context
 
 * **Status Quo:** 目前主流的 Agent 构建方式是 Eager Loading，即在 Prompt 中一次性注入所有可用工具的 Schema 定义。MCP 虽然解决了工具连接的标准化问题，但它默认的交互方式仍然依赖于将工具列表全量推送给模型。
-* **The Gap:** 随着工具数量增加，上下文窗口面临复杂度爆炸带来的“噪声”问题。注入过多的工具定义不仅导致“Attention Dilution”，降低了模型还任务上的推理准确率，同时带来 Time-To-First-Token（TTFT）延迟和推理成本。之前 MCP 本身关注的是互操作性，并未在协议层解决上下文管理的问题。
+* **The Gap:** 随着工具数量增加，上下文窗口面临复杂度爆炸带来的“噪声”问题。注入过多的工具定义不仅导致“Attention Dilution”，降低了模型在任务上的推理准确率，同时带来 Time-To-First-Token（TTFT）延迟和推理成本。之前 MCP 本身关注的是互操作性，并未在协议层解决上下文管理的问题。
 
 ### 3. Motivation & Intuition
 
