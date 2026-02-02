@@ -13,6 +13,8 @@ tags: [Trends, Learning Log]
 * **Dominant Theme:** [例如：Reasoning Models & Scaling Law 2.0]
 * **The Signal:** [DeepSeek-R1 证明了纯 RL 训练推理模型的可行性，行业焦点从 Pre-train 转向推理侧 Scaling。]
 
+> Use one image to show these themes and signals.
+
 ---
 
 ## 🏗️ Technical Review: Models & Directions
