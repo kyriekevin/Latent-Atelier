@@ -14,10 +14,12 @@ body:
     id: goals
     attributes:
       label: Key Objectives
-      value: |
+      placeholder: |
         - [ ] Deep Dive into Paper A
         - [ ] Reproduce Experiment B
         - [ ] Output 3 Blog posts
+    validations:
+      required: true
   - type: textarea
     id: reading-list
     attributes:
