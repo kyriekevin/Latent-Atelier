@@ -1,5 +1,5 @@
 name: 🛠️ Maintenance / Bug
-about: Fix a typo, broken link, or template error.
+description: Fix a typo, broken link, or template error.
 title: "[Fix]: "
 labels: ["meta: bug"]
 body:
