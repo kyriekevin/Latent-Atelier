@@ -4,7 +4,7 @@ title: "[Insight]: Title"
 labels: ["type: insight"]
 body:
   - type: textarea
-    id: context
+    id: insight
     attributes:
       label: Insight
       placeholder: "This insight ..."
