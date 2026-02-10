@@ -87,6 +87,7 @@ In an era of noise, Taste is our only defense. A craftsman is defined not only b
 
 | Date | Type | Topic | Title & Insight |
 | :--- | :--- | :--- | :--- |
+| 2026-01-28 | Blog | Agent | [Agent Skills](./readings/2026/01/Blog_Agent_Skills.md) |
 | 2026-01-25 | Blog | Post Train | [On-policy Distillation](./readings/2026/01/Blog_RL_on-policy-distillation.md) |
 
 ---
