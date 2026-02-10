@@ -14,24 +14,24 @@ In this atelier, GitHub Issues are not "bugs"—they are **Raw Materials**. We u
 
 *Tag what you found. Objective & Immediate.*
 
-* **`Type: Paper`**: Academic signals. New arXiv papers or tech reports.
-* **`Type: Tool`**: The instruments. Libraries (vLLM), frameworks, or codebases.
-* **`Type: Insight`**: Sparks. Blog posts, tweets, or fleeting thoughts worth capturing.
+* **`type: paper`**: Academic signals. New arXiv papers or tech reports.
+* **`type: tool`**: The instruments. Libraries (vLLM), frameworks, or codebases.
+* **`type: insight`**: Sparks. Blog posts, tweets, or fleeting thoughts worth capturing.
 
 ### 🔵 The Kiln (Triage)
 
 *Decide how to process it. Subjective & Deliberate.*
 
-* **`Queue: Deep Dive`**: **(The Chisel)**. High-signal items requiring deep study, a dedicated branch, and atomic notes.
-* **`Queue: Quick`**: **(The Sketch)**. Good for trend tracking. Destined for a brief mention in the Monthly Observatory.
-* **`Status: Reading`**: Currently on the workbench.
+* **`queue: deep dive`**: **(The Chisel)**. High-signal items requiring deep study, a dedicated branch, and atomic notes.
+* **`queue: quick`**: **(The Sketch)**. Good for trend tracking. Destined for a brief mention in the Monthly Observatory.
+* **`queue: wip`**: Currently on the workbench.
 
 ### 🟠 Housekeeping (Meta)
 
 *Keeping the studio clean.*
 
-* **`Meta: Bug`**: Typos, broken links, or rendering glitches.
-* **`Meta: Chore`**: Structure adjustments, template tuning, or "cleaning the floor".
+* **`meta: bug`**: Typos, broken links, or rendering glitches.
+* **`meta: chore`**: Structure adjustments, template tuning, or "cleaning the floor".
 
 ---
 
@@ -42,14 +42,14 @@ Our process mimics the craftsman's loop: **Gather → Sort → Sculpt → Displa
 ### Phase I: Foraging (Mobile/Web)
 
 * **The Act**: Creating an Issue is purely for **Capture**.
-* **The Rule**: Drop the link, tag the `Type`. Do not overthink. Treat it as tossing a stone into the basket.
+* **The Rule**: Drop the link, tag the `type`. Do not overthink. Treat it as tossing a stone into the basket.
 
 ### Phase II: Curation (Weekly Review)
 
 * **The Act**: Review the "Inbox". Distinguish signal from noise.
 * **The Decision**:
-  * Is it foundational? → Mark as `Queue: Deep Dive`.
-  * Is it news? → Mark as `Queue: Quick`.
+  * Is it foundational? → Mark as `queue: deep-dive`.
+  * Is it news? → Mark as `queue: quick`.
   * Is it noise? → **Close** (Discard).
 
 ### Phase III: Sculpting (Execution)
