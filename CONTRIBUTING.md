@@ -24,7 +24,7 @@ In this atelier, GitHub Issues are not "bugs"—they are **Raw Materials**. We u
 *Decide the Mode of processing. Subjective & Deliberate.*
 
 * **`mode: deep`**: **(The Chisel)**. High-signal items. Requires a dedicated branch, atomic notes, and a PR.
-* **`mode: quick`**: **(The Sketch)**. Good for trend tracking. Findings are summarized directly into the `Monthly Log`.
+* **`mode: quick`**: **(The Sketch)**. Good for trend tracking. Findings are summarized directly into the `Monthly Intelligence Log`.
 * **`mode: noise`**: **(The Scrap)**. Low signal. Evaluated and explicitly discarded.
 
 *(Note: We do not use a `wip` label. To mark an item as active, **Assign** it to yourself.)*
