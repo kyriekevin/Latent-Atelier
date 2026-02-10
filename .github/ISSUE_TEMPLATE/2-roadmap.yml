@@ -8,6 +8,8 @@ body:
     attributes:
       label: Core Theme
       placeholder: e.g., Understanding Reasoning in LLMs
+    validations:
+      required: true
   - type: textarea
     id: goals
     attributes:
