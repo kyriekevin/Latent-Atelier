@@ -235,7 +235,7 @@ training_client.forward_backward(trajectories, loss_fn="importance_sampling")
     2. Memory & Efficiency Optimization (vLLM Integration)
         * **On-Policy 蒸馏的最大瓶颈在于 Generation Latency（生成延迟）**。
         * **Actor-Learner 架构:**
-            在 PyTorch 训练循环中直接调用 `.generate()` ，由于 Python GIL 和显存切换开销，效率极低。
+            在 PyTorch 训练循环中直接调用 `.generate()`，由于 Python GIL 和显存切换开销，效率极低。
             * **Best Practice** 是采用解耦架构：
                 * **Actor (Inference Engine):** 使用 vLLM 或 TGI 等高性能引擎进行异步 Rollout，生成数据推入 Replay Buffer。
                 * **Learner (Training Engine):** 进程从分布式训练 Buffer 中读取数据，进行梯度更新。
