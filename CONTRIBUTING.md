@@ -14,24 +14,27 @@ In this atelier, GitHub Issues are not "bugs"—they are **Raw Materials**. We u
 
 *Tag what you found. Objective & Immediate.*
 
-* **`Type: Paper`**: Academic signals. New arXiv papers or tech reports.
-* **`Type: Tool`**: The instruments. Libraries (vLLM), frameworks, or codebases.
-* **`Type: Insight`**: Sparks. Blog posts, tweets, or fleeting thoughts worth capturing.
+* **`type: paper`**: Academic signals. New arXiv papers or tech reports.
+* **`type: tool`**: The instruments. Libraries (vLLM), frameworks, or codebases.
+* **`type: insight`**: Sparks. Blog posts, tweets, or fleeting thoughts worth capturing.
+* **`type: log`**: The Observatory. Monthly compilations & reports.
 
-### 🔵 The Kiln (Triage)
+### 🔵 The Kiln (Processing)
 
-*Decide how to process it. Subjective & Deliberate.*
+*Decide the Mode of processing. Subjective & Deliberate.*
 
-* **`Queue: Deep Dive`**: **(The Chisel)**. High-signal items requiring deep study, a dedicated branch, and atomic notes.
-* **`Queue: Quick`**: **(The Sketch)**. Good for trend tracking. Destined for a brief mention in the Monthly Observatory.
-* **`Status: Reading`**: Currently on the workbench.
+* **`mode: deep`**: **(The Chisel)**. High-signal items. Requires a dedicated branch, atomic notes, and a PR.
+* **`mode: quick`**: **(The Sketch)**. Good for trend tracking. Findings are summarized directly into the `Monthly Intelligence Log`.
+* **`mode: noise`**: **(The Scrap)**. Low signal. Evaluated and explicitly discarded.
+
+*(Note: We do not use a `wip` label. To mark an item as active, **Assign** it to yourself.)*
 
 ### 🟠 Housekeeping (Meta)
 
 *Keeping the studio clean.*
 
-* **`Meta: Bug`**: Typos, broken links, or rendering glitches.
-* **`Meta: Chore`**: Structure adjustments, template tuning, or "cleaning the floor".
+* **`meta: bug`**: Typos, broken links, or rendering glitches.
+* **`meta: chore`**: Structure adjustments, template tuning, or "cleaning the floor".
 
 ---
 
@@ -42,24 +45,29 @@ Our process mimics the craftsman's loop: **Gather → Sort → Sculpt → Displa
 ### Phase I: Foraging (Mobile/Web)
 
 * **The Act**: Creating an Issue is purely for **Capture**.
-* **The Rule**: Drop the link, tag the `Type`. Do not overthink. Treat it as tossing a stone into the basket.
+* **The Rule**: Drop the link, tag the `type`. Do not overthink. Treat it as tossing a stone into the basket.
 
 ### Phase II: Curation (Weekly Review)
 
-* **The Act**: Review the "Inbox". Distinguish signal from noise.
+* **The Act**: Review the "Inbox". Distinguish signal from noise and assign a **Mode**.
 * **The Decision**:
-  * Is it foundational? → Mark as `Queue: Deep Dive`.
-  * Is it news? → Mark as `Queue: Quick`.
-  * Is it noise? → **Close** (Discard).
+  * Is it foundational? → Label **`mode: deep`**.
+  * Is it news? → Label **`mode: quick`**.
+  * Is it noise? → Label **`mode: noise`** + Comment "Why" + **Close as Not Planned**.
 
 ### Phase III: Sculpting (Execution)
 
-* **Deep Work**: Checkout a topic branch (e.g., `topic/deepseek-analysis`). Write the "Note" file. This is where *The Clay* becomes *The Chisel*.
-* **Synthesis**: Merge findings into the `Monthly Intelligence Log`.
+* **Activation**: When you start working, **Assign** the Issue to yourself.
+* **Execution**:
+  * **Deep Mode**: Checkout a topic branch (e.g., `topic/deepseek-analysis`). Write the "Note" file. Submit a PR that links to the Issue.
+  * **Quick Mode**: Extract the insight into the `Monthly Intelligence Log`. Comment on the Issue.
+* **Synthesis**: All valid knowledge eventually merges into `main`.
 
 ### Phase IV: The Gallery (Archive)
 
-* **Closure**: Once the knowledge is crystallized into a Markdown file, the Issue (Ticket) is **Closed**.
+* **Closure**:
+  * **Deep**: Automatically closed when the PR is merged.
+  * **Quick**: Manually closed after content is migrated to the Log.
 * **Permanence**: We link to **local files** or **original source URLs** in our reports, never to the temporary Issues. The artifact must stand alone.
 
 ---

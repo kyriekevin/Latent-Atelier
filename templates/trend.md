@@ -51,6 +51,7 @@ tags: [Trends, Learning Log]
 | <Topic> | **演进轴 1**：从 A -> B（驱动因素/约束 1 句）<br><br> **演进轴 2**：从 A -> B（驱动因素/约束 1 句）<br><br> **演进轴 3**：从 A -> B（驱动因素/约束 1 句）<br><br> **本月关键拐点/信号**：1 句（为什么值得关注）<br><br> **未解问题**：1 句（最大不确定性/争议/瓶颈） | 按单篇论文条目模板填写 Paper 1 <br><br> Paper 2 <br><br> Paper 3 | **可复用的“方向性结论”**：2-3 条（不是操作细节，是你们能跟得上的原则）<br><br> **可抄的最小单元（低门槛）**：1-3 个（例如：rubric 结构、过滤策略、数据合成套路、评测口径）<br><br> **数据飞轮如何接入**：一句话说明“你们现有数据”怎么变成训练/评测信号<br><br> **风险提示**：1-2 条（最可能踩坑点/失败模式） |
 
 **[Paper] <Title>(<Link>)**
+
 * 场景/问题：它解决的关键痛点是什么？（1-2 句）
 * 方法思路：核心 idea 是什么？（1 句）
 * 关键机制：2-4 个关键词（例如：on-policy distill、discriminator reward、rubric checklist、binary reward、generator-verifier、JIT memory、orchestrator-RL…）
