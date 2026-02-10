@@ -28,6 +28,7 @@
 
 | Type | Topic/Tool | Name & Resource | Core Signal / Utility |
 | :--- | :--- | :--- | :--- |
+| 📜 | On-policy Distillation | [On-policy Distillation](./readings/2026/01/Blog_RL_on-policy-distillation.md) | On-policy distillation transforms static imitation into dynamic introspection by using dense, token-level teacher feedback to correct a student's self-generated reasoning trajectories. |
 
 ---
 
