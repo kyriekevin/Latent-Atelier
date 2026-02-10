@@ -279,7 +279,7 @@ training_client.forward_backward(trajectories, loss_fn="importance_sampling")
 | OOD Robustness | Poor (Exposure Bias) | Good | Excellent |
 
 * Result 1: Efficiency Breakthrough (Thinking Machines): 在数学推理任务（AIME scores）上，On-Policy Distillation 达到与 RL 相当甚至更好的分数，所需的 Gradient Steps 少了 7-10倍。累计算力消耗（考虑到 Teacher Inference Cost）总体减少 50-100倍。这证明了 Dense Reward 的巨大价值。
-* Result 2: Black-Box Power (GAD): 在 LMSYS-Chat 盲测中，Qwen2.5-14B (Student) 使用 GAD 蒸馏后，与其 Teacher (GPT-5-Chat) 的胜率持平。这极其惊人，因为它意味着仅仅通过判别器的二分类信号，学生就能完全模仿老师的“神韵”（Nuances），而不需要具体的 Logits 数值。这打破了“必须有 White-box Access 才能做好蒸馏”的迷信。
+* Result 2: Black-Box Power (GAD): 在 LMSYS-Chat 盲测中，Qwen-2.5-14B (Student) 使用 GAD 蒸馏后，与其 Teacher (GPT-5-Chat) 的胜率持平。这极其惊人，因为它意味着仅仅通过判别器的二分类信号，学生就能完全模仿老师的“神韵”（Nuances），而不需要具体的 Logits 数值。这打破了“必须有 White-box Access 才能做好蒸馏”的迷信。
 * Result 3: Continual Learning Resilience: Thinking Machines 的实验展示，当模型在特定内部文档（Internal Docs）上微调时，SFT 模型的通用指令遵循能力（IFEval）大幅下降（灾难性遗忘）。而采用 On-Policy Distillation（同时以原始通用模型作为 Teacher），Student 几乎完全保持了通用能力，同时掌握了新知识。这是因为 Teacher（作为锚点）始终在约束 Student 的行为边界，防止其在参数空间中漂移过远。
 
 * **Ablation Study:**
