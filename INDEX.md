@@ -38,6 +38,7 @@
 
 | Type | Topic/Tool | Name & Resource | Core Signal / Utility |
 | :--- | :--- | :--- | :--- |
+| 📜 | Agent Skills | [Agent Skills](./readings/2026/01/Blog_Agent_Skills.md) | Agent Skills revolutionizes AI orchestration by transforming complex SOPs into on-demand 'procedural memory,' slashing context costs while enabling agents to scale indefinitely through just-in-time cognitive loading. |
 
 ---
 
