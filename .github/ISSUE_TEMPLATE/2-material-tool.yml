@@ -1,0 +1,20 @@
+name: 📦 Raw Material (Tool)
+description: Capture a new tool or library.
+title: "[Tool]: Title"
+labels: ["type: tool"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link / Source
+      placeholder: https://github.com/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      placeholder: "Briefly describe what this tool does, the problem it solves, and why it's useful."
+    validations:
+      required: false

@@ -1,6 +1,7 @@
-name: 📦 Raw Material
-description: Capture a new paper, tool, or insight.
-title: "[Category]: Title"
+name: 📦 Raw Material (Paper)
+description: Capture a new research paper.
+title: "[Paper]: Title"
+labels: ["type: paper"]
 body:
   - type: input
     id: link
@@ -18,14 +19,3 @@ body:
       placeholder: "This paper proposes a new method for..."
     validations:
       required: false
-
-  - type: dropdown
-    id: type
-    attributes:
-      label: Material Type
-      options:
-        - "type: paper"
-        - "type: tool"
-        - "type: insight"
-    validations:
-      required: true
