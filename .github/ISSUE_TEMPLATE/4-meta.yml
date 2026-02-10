@@ -1,0 +1,9 @@
+---
+name: 🛠️ Maintenance / Bug
+about: Fix a typo, broken link, or template error.
+title: "[Fix]: "
+labels: ["meta: bug"]
+---
+
+**Describe the glitch**
+A clear and concise description of what needs fixing.

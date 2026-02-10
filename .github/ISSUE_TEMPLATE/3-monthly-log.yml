@@ -1,0 +1,18 @@
+name: 📅 Monthly Ritual
+description: Task tracker for compiling the Monthly Intelligence Log.
+title: "[Ritual]: Monthly Log - Month Year"
+labels: ["type: log"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Time to synthesize. Gather the clay and fire the kiln.
+  - type: textarea
+    id: checklist
+    attributes:
+      label: Synthesis Checklist
+      value: |
+        - [ ] **Harvest**: Review all `mode: quick` issues and summarize into the Log file.
+        - [ ] **Review**: Check status of `mode: deep` branches. Merge if ready.
+        - [ ] **Clean**: Close processed issues (Close as Not Planned for noise).
+        - [ ] **Publish**: Submit PR for the Monthly Log.

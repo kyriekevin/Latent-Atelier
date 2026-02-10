@@ -1,0 +1,23 @@
+name: 🧭 Quarterly Roadmap
+description: Define the research focus for the upcoming quarter.
+title: "[Plan]: QX 202X Research Focus"
+labels: ["meta: chore"]
+body:
+  - type: input
+    id: theme
+    attributes:
+      label: Core Theme
+      placeholder: e.g., Understanding Reasoning in LLMs
+  - type: textarea
+    id: goals
+    attributes:
+      label: Key Objectives
+      value: |
+        - [ ] Deep Dive into Paper A
+        - [ ] Reproduce Experiment B
+        - [ ] Output 3 Blog posts
+  - type: textarea
+    id: reading-list
+    attributes:
+      label: Target Reading List
+      description: Link to existing 'Raw Material' issues here.

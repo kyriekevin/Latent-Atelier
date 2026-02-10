@@ -1,0 +1,32 @@
+name: 📦 Raw Material
+description: Capture a new paper, tool, or insight.
+title: "[Category]: Title"
+labels: ["type: paper"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link / Source
+      placeholder: https://arxiv.org/abs/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Abstract / Thoughts
+      description: Paste the abstract or your initial "why" here. Saves you a click later.
+      placeholder: "This paper proposes a new method for..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Material Type
+      options:
+        - "type: paper"
+        - "type: tool"
+        - "type: insight"
+    validations:
+      required: true
