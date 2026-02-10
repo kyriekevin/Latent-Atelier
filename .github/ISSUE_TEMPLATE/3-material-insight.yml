@@ -1,0 +1,12 @@
+name: 📦 Raw Material (Insight)
+description: Capture a new insight.
+title: "[Insight]: Title"
+labels: ["type: insight"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Insight
+      placeholder: "This insight ..."
+    validations:
+      required: true
