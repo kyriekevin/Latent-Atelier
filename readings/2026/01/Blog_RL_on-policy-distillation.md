@@ -1,7 +1,7 @@
 ---
 title: "On-Policy Distillation"
 authors: [Thinking Machines Lab]
-date: 2025-10-27
+date: 2026-01-25
 layer: ALIGN
 tags: [On-Policy, Distillation]
 url: "https://thinkingmachines.ai/blog/on-policy-distillation/"
