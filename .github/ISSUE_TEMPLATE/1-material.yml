@@ -1,7 +1,6 @@
 name: 📦 Raw Material
 description: Capture a new paper, tool, or insight.
 title: "[Category]: Title"
-labels: ["type: paper"]
 body:
   - type: input
     id: link
