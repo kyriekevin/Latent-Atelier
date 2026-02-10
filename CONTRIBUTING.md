@@ -31,8 +31,9 @@ In this atelier, GitHub Issues are not "bugs"—they are **Raw Materials**. We u
 
 ### 🟠 Housekeeping (Meta)
 
-*Keeping the studio clean.*
+*Keeping the studio clean and directed.*
 
+* **`meta: plan`**: **(The Compass)**. Quarterly roadmaps, research focus, or strategic direction.
 * **`meta: bug`**: Typos, broken links, or rendering glitches.
 * **`meta: chore`**: Structure adjustments, template tuning, or "cleaning the floor".
 

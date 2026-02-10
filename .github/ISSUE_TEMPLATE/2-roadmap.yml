@@ -1,7 +1,7 @@
 name: 🧭 Quarterly Roadmap
 description: Define the research focus for the upcoming quarter.
 title: "[Plan]: QX 202X Research Focus"
-labels: ["meta: chore"]
+labels: ["meta: plan"]
 body:
   - type: input
     id: theme
