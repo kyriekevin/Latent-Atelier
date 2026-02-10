@@ -1,7 +1,7 @@
 ---
 title: "Insight: [The Specific Trade-off/Pattern Name]"
 date: YYYY-MM
-type: #Mechanism #Trade-off #Synthesis
+type: Mechanism / Trade-off / Synthesis
 tags: [Topic, Sub-problem]
 status: Draft / Crystalized
 ---
