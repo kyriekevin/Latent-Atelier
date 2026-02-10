@@ -15,6 +15,6 @@ body:
     id: context
     attributes:
       label: Context
-      placeholder: "This tool..."
+      placeholder: "Briefly describe what this tool does, the problem it solves, and why it's useful."
     validations:
       required: false

@@ -7,6 +7,6 @@ body:
     id: insight
     attributes:
       label: Insight
-      placeholder: "This insight ..."
+      placeholder: "Describe the core insight. What is the observation, contradiction, or new connection?"
     validations:
       required: true
