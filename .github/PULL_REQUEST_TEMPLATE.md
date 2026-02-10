@@ -14,7 +14,7 @@ Closes #
 
 ## 🔸 For Quick/Log (Mode: Quick)
 <!-- What did you sketch? -->
-- [ ] **Transfer**: Migrated insights to `monthly/202X-XX.md`
+- [ ] **Transfer**: Migrated insights to `monthly/YYYY-MM.md`
 - [ ] **Clean**: Checked `mode: quick` items.
 
 ## 🛠️ For Maintenance (Meta)
