@@ -2,7 +2,7 @@
 
 ## 🔗 Linked Issue
 <!-- REQUIRED: Replace #xx with the issue number to auto-close it upon merge -->
-Closes #
+Closes #xx
 
 ---
 <!-- 👇 Choose one section below and DELETE the others 👇 -->
