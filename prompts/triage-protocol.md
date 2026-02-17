@@ -70,21 +70,19 @@ Step 2: **Evaluate**. Assign a decimal score for each of the 6 dimensions based 
 
 ## Output Format (JSON)
 
-```json
 {
   "summary": "Contextual summary...",
   "strategic_review": {
     "A1_Significance": { "score": x.y, "reason": "" },
     "A2_Novelty": { "score": x.y, "reason": "" },
-    "B3_Alignment": { "score": x.y, "reason": "" }
+    "A3_Alignment": { "score": x.y, "reason": "" }
   },
   "tactical_review": {
-    "A3_Rigor": { "score": x.y, "reason": "" },
-    "B1_Transferability": { "score": x.y, "reason": "" },
-    "B2_Recipe_Detail": { "score": x.y, "reason": "" }
+    "B1_Rigor": { "score": x.y, "reason": "" },
+    "B2_Transferability": { "score": x.y, "reason": "" },
+    "B3_Recipe_Detail": { "score": x.y, "reason": "" }
   }
 }
-```
 
 ## Input Context
 
