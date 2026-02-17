@@ -49,7 +49,7 @@ We use a **Dual-Stream** evaluation to filter noise. This guides our choice betw
 
 1. **Significance (A1):** Is it a critical bottleneck (e.g., Reasoning, Hallucination) or a niche problem?
 2. **Novelty (A2):** Is it a Paradigm Shift / Validated System Recipe (e.g., "Native Multimodality works")?
-3. **Alignment (B3):** Is this a "North Star" necessity for us right now?
+3. **Alignment (A3):** Is this a "North Star" necessity for us right now?
 
 ### Stream B: Execution & Tactics
 
