@@ -37,7 +37,7 @@ A3. Roadmap Alignment (The "When")
 
 ### Execution & Tactics
 
-A3. Rigor (The "Proof)
+B1. Rigor (The "Proof")
 
 * **4.1-5.0:** **Flawless.** Extensive ablations, strong baselines (e.g., Llama-3/GPT-4), clear causal analysis.
 * **3.1-4.0:** **Solid.** Good baselines, clear gains. Maybe 1 missing ablation.
