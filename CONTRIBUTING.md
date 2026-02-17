@@ -24,7 +24,7 @@ In this atelier, GitHub Issues are not "bugs"—they are **Raw Materials**. We u
 *Decide the Mode of processing. Subjective & Deliberate.*
 
 * **`mode: deep`**: **(The Chisel)**. High-signal items. Requires a dedicated branch, atomic notes, and a PR.
-* **`mode: quick`**: **(The Sketch)**. Good for trend tracking. Findings are summarized directly into the `Monthly Intelligence Log`.
+* **`mode: skim`**: **(The Sketch)**. Good for trend tracking. Findings are summarized directly into the `Monthly Intelligence Log`.
 * **`mode: noise`**: **(The Scrap)**. Low signal. Evaluated and explicitly discarded.
 
 *(Note: We do not use a `wip` label. To mark an item as active, **Assign** it to yourself.)*
@@ -39,7 +39,31 @@ In this atelier, GitHub Issues are not "bugs"—they are **Raw Materials**. We u
 
 ---
 
-## 2. The Rituals (Workflow)
+## 2. The Deep Signal Protocol (Triage)
+
+We use a **Dual-Stream** evaluation to filter noise. This guides our choice between `noise`, `skim`, and `deep`.
+
+### Stream A: Strategic Signal
+
+*Focus: Does this change our Roadmap?*
+
+1. **Significance (A1):** Is it a critical bottleneck (e.g., Reasoning, Hallucination) or a niche problem?
+2. **Novelty (A2):** Is it a Paradigm Shift / Validated System Recipe (e.g., "Native Multimodality works")?
+3. **Alignment (B3):** Is this a "North Star" necessity for us right now?
+
+### Stream B: Execution & Tactics
+
+*Focus: Can we reproduce the logic?*
+
+1. **Rigor (A3):** Are baselines strong? Are ablations clear?
+2. **Transferability (B1):** Is the *concept* universal (works on any model size/modality)?
+3. **Recipe (B2):** Is the logic replicable from text?
+
+> Note: Clear text description of "Secret Sauce" (data ratios, annealing) = High Score. Code is not mandatory.
+
+---
+
+## 3. The Rituals (Workflow)
 
 Our process mimics the craftsman's loop: **Gather → Sort → Sculpt → Display**.
 
@@ -50,10 +74,10 @@ Our process mimics the craftsman's loop: **Gather → Sort → Sculpt → Displa
 
 ### Phase II: Curation (Weekly Review)
 
-* **The Act**: Review the "Inbox". Distinguish signal from noise and assign a **Mode**.
+* **The Act**: Run the **Triage Bot** (Raycast/Script) on the Inbox.
 * **The Decision**:
   * Is it foundational? → Label **`mode: deep`**.
-  * Is it news? → Label **`mode: quick`**.
+  * Is it news? → Label **`mode: skim`**.
   * Is it noise? → Label **`mode: noise`** + Comment "Why" + **Close as Not Planned**.
 
 ### Phase III: Sculpting (Execution)
@@ -61,19 +85,19 @@ Our process mimics the craftsman's loop: **Gather → Sort → Sculpt → Displa
 * **Activation**: When you start working, **Assign** the Issue to yourself.
 * **Execution**:
   * **Deep Mode**: Checkout a topic branch (e.g., `topic/deepseek-analysis`). Write the "Note" file. Submit a PR that links to the Issue.
-  * **Quick Mode**: Extract the insight into the `Monthly Intelligence Log`. Comment on the Issue.
-* **Synthesis**: All valid knowledge eventually merges into `main`.
+  * **Skim Mode**: Extract the insight into the `Monthly Intelligence Log`. Comment on the Issue.
+* **Switching**: You may upgrade `skim` to `deep` if you discover hidden value during reading.
 
 ### Phase IV: The Gallery (Archive)
 
 * **Closure**:
   * **Deep**: Automatically closed when the PR is merged.
-  * **Quick**: Manually closed after content is migrated to the Log.
+  * **Skim**: Manually closed after content is migrated to the Log.
 * **Permanence**: We link to **local files** or **original source URLs** in our reports, never to the temporary Issues. The artifact must stand alone.
 
 ---
 
-## 3. The Architecture (Branching)
+## 4. The Architecture (Branching)
 
 * **`main` (The Gallery)**:
   The public showroom. History here is clean, linear, and polished. Only finished works (merged PRs) enter here.
