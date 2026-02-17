@@ -53,7 +53,7 @@ B2. Transferability (The "Reach")
 * **1.1-2.0:** **Fragile.** Sensitive to seeds/hyperparams. Hard to tune.
 * **0.0-1.0:** **Overfit.** Only works on their private dataset/setup.
 
-B2. Engineering Recipe (The "How-To")
+B3. Engineering Recipe (The "How-To")
 
 * **4.1-5.0:** **Reproducible Guide.**
   * Text reveals the **"Secret Sauce"** (e.g., exact Data Ratios, Annealing Schedules, Loss Spikes fixes).
