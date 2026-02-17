@@ -27,7 +27,7 @@ A2. Methodological Novelty (The "What")
 * **1.1-2.0:** **Tuning.** Hyperparameter search or minor engineering tricks.
 * **0.0-1.0:** **Re-hashing.** Known concepts under new names.
 
-B3. Roadmap Alignment (The "When")
+A3. Roadmap Alignment (The "When")
 
 * **4.1-5.0:** **Critical Path.** Directly addresses a blocker in our current sprint/quarter (e.g., Reasoning, Agent Latency).
 * **3.1-4.0:** **Strategic.** High priority for the backlog.
