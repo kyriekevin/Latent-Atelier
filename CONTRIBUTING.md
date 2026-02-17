@@ -55,9 +55,9 @@ We use a **Dual-Stream** evaluation to filter noise. This guides our choice betw
 
 *Focus: Can we reproduce the logic?*
 
-1. **Rigor (A3):** Are baselines strong? Are ablations clear?
-2. **Transferability (B1):** Is the *concept* universal (works on any model size/modality)?
-3. **Recipe (B2):** Is the logic replicable from text?
+1. **Rigor (B1):** Are baselines strong? Are ablations clear?
+2. **Transferability (B2):** Is the *concept* universal (works on any model size/modality)?
+3. **Recipe (B3):** Is the logic replicable from text?
 
 > Note: Clear text description of "Secret Sauce" (data ratios, annealing) = High Score. Code is not mandatory.
 
