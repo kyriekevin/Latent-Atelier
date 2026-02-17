@@ -45,7 +45,7 @@ B1. Rigor (The "Proof")
 * **1.1-2.0:** **Weak.** Flawed baselines (comparing to weak models), cherry-picked.
 * **0.0-1.0:** **Broken.** Methodology invalid.
 
-B1. Transferability (The "Reach")
+B2. Transferability (The "Reach")
 
 * **4.1-5.0:** **Universal Law.** Applies across Modalities (Text/Image) AND Scales (7B/70B). (e.g., Scaling Laws, General RL principles).
 * **3.1-4.0:** **High Transfer.** Works on standard Transformer architectures. The logic is portable.
