@@ -29,7 +29,18 @@ Algorithms do not exist in a vacuum; they live in the **Kiln of Infrastructure**
 * **Systemic Thinking:** We obsess over the *Flywheel*. How does a fine-tuning tool (Foundry) improve the agentic logic (Scaffolding), and how does that eventually feed back into our cognitive synthesis (Augmentation)?
 * **Surviving the Noise:** We look for ideas and tools that survive the harsh reality of data noise, latency constraints, and the "long tail" of real-world edge cases.
 
-## 4. The Evolution
+## 4. The Cognitive Delta
+
+In an era where the frontier is often closed (Tech Reports), we redefine what constitutes a "Open Contribution."
+
+* **Logic > Code:**
+  We value a paper that clearly explains *why* and *how* a system works (The Recipe), even if it doesn't release the weights. Code can be rewritten; Insight is the scarcity.
+* **Strategy > Tactics:**
+  A mechanism that shifts our mental model (e.g., "Native Multimodality is essential") is worth more than a tactical tweak that purely optimizes a metric.
+* **Validation > Novelty:**
+  We value the *Validation* of a complex system path (e.g., "Proving Mixed-Modal Training works at scale") over the novelty of a single mathematical component.
+
+## 5. The Evolution
 
 * The Past: We focused on the **Model** as a static sculpture.
 * The Present: We see the **System**—a dynamic orchestration of reasoning, tools, and data.
