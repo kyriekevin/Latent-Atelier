@@ -11,8 +11,8 @@ Analyze the paper structure and output a navigation plan:
 
 Identify the 3-5 visual elements that explain the *Mechanism*.
 
-* *Format:* `[Figure/Table X] - [Why it matters]`
-* *Example:* "Figure 3 - This reveals the specific data mixing ratio, which is the core recipe."
+* *Format:* `**Figure/Table [X]:** [Why it matters]`
+* *Example:* "**Figure 3:** This reveals the specific data mixing ratio, which is the core recipe."
 
 ### 2. The "Shortcuts" (What to Skip)
 
