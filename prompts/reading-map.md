@@ -14,12 +14,12 @@ Identify the 3-5 visual elements that explain the *Mechanism*.
 * *Format:* `**Figure/Table [X]:** [Why it matters]`
 * *Example:* "**Figure 3:** This reveals the specific data mixing ratio, which is the core recipe."
 
-### 2. The "Shortcuts" (What to Skip)
+### 2. The "Shortcuts" (What to Skip/Skim)
 
-Identify sections that are standard boilerplate.
+Identify sections that are standard boilerplate (to skip) or can be quickly scanned (to skim).
 
-* *Format:* `Skip [Section X] - [Reason]`
-* *Example:* "Skip Section 2 (Related Work) - Standard transformer history."
+* *Format:* `Skip/Skim **Section [X]** ([Reason])`
+* *Example:* "Skip **Section 2** (Standard transformer history)."
 
 ### 3. The "Delta Check" (Verification)
 
