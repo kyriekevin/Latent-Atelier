@@ -23,9 +23,9 @@ Identify sections that are standard boilerplate (to skip) or can be quickly scan
 
 ### 3. The "Delta Check" (Verification)
 
-Formulate 2-3 specific questions the user must answer to verify the claim.
+Formulate 2-3 specific questions the user must answer to verify the paper's core claim.
 
-* *Focus:* "Is the gain from the Architecture or just more Data?"
+* *Example:* "Does the ablation study in Table 5 truly isolate the impact of component X?"
 
 ## Output Format (Markdown)
 
