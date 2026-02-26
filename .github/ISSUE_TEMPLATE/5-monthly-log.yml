@@ -12,7 +12,7 @@ body:
     attributes:
       label: Synthesis Checklist
       value: |
-        - [ ] **Harvest**: Review all `mode: quick` issues and summarize into the Log file.
+        - [ ] **Harvest**: Review all `mode: skim` issues and summarize into the Log file.
         - [ ] **Review**: Check status of `mode: deep` branches. Merge if ready.
         - [ ] **Clean**: Close processed issues (Close as Not Planned for noise).
         - [ ] **Publish**: Submit PR for the Monthly Log.
