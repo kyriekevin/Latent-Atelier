@@ -23,7 +23,7 @@ This directory contains the core AI prompts that power the Latent Atelier workfl
 *Deep-context tools optimized for Gemini Gems to deconstruct the paper.*
 
 * [`gemini-math.md`](./gemini-math.md): The Architecture Mapper. Translates abstract LaTeX into physical system dependencies and readable logic.
-* [`gemini-coder.md`](./gemini-coder.md): The Projector. Converts naive pseudocode into strictly shape-asserted PyTorch, exposing OOM risks.
+* [`gemini-code.md`](./gemini-code.md): The Projector. Converts naive pseudocode into strictly shape-asserted PyTorch, exposing OOM risks.
 
 ---
 *Note: Synthesis tools (The Socrates & Note Architect) are currently in local incubation and will be added in future versions.*
