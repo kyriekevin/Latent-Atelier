@@ -73,7 +73,7 @@ In an era of noise, Taste is our only defense. A craftsman is defined not only b
 
 | Period | Theme | Key Signal |
 | :--- | :--- | :--- |
-| 202602 | [2026-02 Monthly Trends](./trends/202602.md) | On-Policy x Rubrics/Verifier Rl x Native Multimodal |
+| 202602 | [2026-02 Monthly Trends](./trends/202602.md) | On-Policy × Rubrics/Verifier RL × Native Multimodal |
 | 202601 | [2026-01 Monthly Trends](./trends/202601.md) | On-Policy Distillation × Rubrics/Verifier RL × Persona Feedback |
 
 ### ⚡ Deep Artifacts
